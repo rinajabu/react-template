@@ -2,9 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './sass/App.scss';
-import Home from './components/Home/Home';
+import Home from './pages/Home/Home';
 import TopNav from './components/TopNav/TopNav';
-import About from './components/About/About';
+import About from './pages/About/About';
 
 function App() {
   return (
